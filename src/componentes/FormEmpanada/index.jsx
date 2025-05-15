@@ -20,7 +20,7 @@ const FormEmpanada = ({ index, gusto, cantidad, onChange }) => {
 
     return (
         <>
-            <div class="formEmpanada">
+            <div className="formEmpanada">
                 <label>Gusto de empanada</label>
 
                 <select name="gusto" value={gusto} onChange={handleChange}>
