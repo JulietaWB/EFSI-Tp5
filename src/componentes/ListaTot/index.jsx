@@ -1,3 +1,5 @@
+import './ListaTot.css';
+
 const ListaTot = ({ pedidoTot }) => {
 
     const totales = {};
@@ -16,7 +18,7 @@ const ListaTot = ({ pedidoTot }) => {
     });
   
     return (
-      <div className="ListaTot">
+      <div class="listaTot">
         <h3>Totales por gusto</h3>
         <ul>
           {Object.entries(totales).map(([gusto, cantidad]) => (

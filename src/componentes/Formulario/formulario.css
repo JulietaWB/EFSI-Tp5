@@ -1,0 +1,68 @@
+form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #E09F3E; /* fondo crema */
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #23788f; /* verde azulado oscuro */
+  }
+  
+  label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #540B0E; /* bordó oscuro */
+  }
+  
+  input[type="text"], 
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    border: 2px solid #335C67;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #540B0E;
+  }
+
+  
+  input[type="number"], select {
+    background-color: white;
+    color: #540B0E;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #23788f; /* naranja */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #103e4b; /* bordó oscuro */
+  }
+  
+  button[type="submit"] {
+    background-color: #9E2A2B; /* azul oscuro */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4d1112; /* rojo vino */
+  }
+  

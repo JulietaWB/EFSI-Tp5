@@ -1,0 +1,35 @@
+.listaTot {
+    background-color: #E09F3E; /* mismo color que el formulario */
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    color: #FFF3B0; /* texto claro sobre fondo naranja */
+  }
+  
+  .listaTot h3 {
+    text-align: center;
+    color: #FFF3B0;
+    margin-bottom: 1rem;
+  }
+  
+  .listaTot strong {
+    color: #540B0E; /* bordó oscuro */
+  }
+  
+  .listaTot ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .listaTot li {
+    padding: 0.25rem 0;
+    border-bottom: 1px solid rgba(255, 243, 176, 0.3);
+  }
+  
+  .listaTot li:last-child {
+    border-bottom: none;
+  }
+  

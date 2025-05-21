@@ -33,7 +33,7 @@ const Formulario = ({pedidoTot, setPedidoTot}) => {
       empanadas,
     };
 
-    setPedidoTot([...pedidoTot, pedidoXpersona]);
+    setPedidoTot([...pedidoTot, pedidoPersona]);
 
     // Limpiar el formulario
     setNombre("");

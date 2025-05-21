@@ -1,7 +1,10 @@
+import './ListaPersona.css';
+
 const ListaPersona = ({ pedidoTot }) => (
 
-    <div>
+    <div class="listaPersona">
       <h3>Pedidos por persona</h3>
+
       {pedidoTot.map((pedido, index) => (
 
         <div key={index}>
@@ -12,6 +15,7 @@ const ListaPersona = ({ pedidoTot }) => (
             ))}
           </ul>
         </div>
+        
       ))}
     </div>
   );
